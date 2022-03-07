@@ -1,0 +1,152 @@
+.container {
+   max-width: 1440px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+  
+   background-color: #000000;
+   color: #ffffff;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    .logo {
+        width: 90px;
+        height: 36px;
+        color: #ffffff;
+        justify-content: flex-start;
+    }
+    .nav-desc {
+        max-width: 267px;
+        width: 100%;
+        min-height: 25px;
+
+    }
+    .nav-tab {
+        max-width: 303px;
+        width: 100%;
+        min-height: 25px;
+        
+
+    }
+    .nav-mob {
+        width: 24px;
+        height: 24px;
+        color: #242635;
+
+    }
+    .a {
+        color: #ffffff;
+    }
+    .b {
+        color:#ffffff;
+    }
+
+}
+
+.content {
+    max-width: 416px;
+    width: 100%;
+    min-height: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    
+    .title {
+        align-items: center;
+        /*max-width: 366px;
+        width: 100%;
+        min-height: 102px;*/
+    }
+    .text {
+        text-align: center;
+        /*max-width: 410px;
+        width: 100%;
+        min-height: 98px;*/
+    }
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.icon-desc {
+    width: 40px;
+    height: 16px;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        min-height: none;
+    }
+    .nav-mob {
+        display: flex;
+    }
+    .nav-tab {
+        display: none;
+    }
+    .nav-desc {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 501px) {
+    .header {
+        min-height: none;
+    }
+    .nav-mob {
+        display: none;
+    }
+    .nav-tab {
+        display: flex;
+    }
+    .nav-desc {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1001px) {
+    .header {
+        min-height: none;
+    }
+    .nav-mob {
+        display: none;
+    }
+    .nav-tab {
+        display: none;
+    }
+    .nav-desc {
+        display: flex;
+    }
+
+}
+
+/*@media screen and (min-width: 1000px) {
+    .nav-tab {
+        color: #ffffff
+    }
+    
+}
+
+@media screen and (min-width: 1001px) {
+    .nav-desc {
+        color: #ffffff;
+    }
+    .icon-desc {
+        color: #242635;
+    }
+    
+}*/
+
+
